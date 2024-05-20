@@ -64,7 +64,9 @@ const Hero = () => {
         .replace(/(\*\*|__)(.*?)\1/g, "<strong>$2</strong>")
         .replace(/\n/g, "<br />")
         .replace(/# (.*?)(\n|$)/g, "<h1>$1</h1>")
-        .replace(/^- (.*?)(\n|$)/g, "<li>$1</li>");
+        .replace(/^- (.*?)(\n|$)/g, "<li>$1</li>")
+        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+        .replace(/\* /g, "➤ ");
     };
 
     try {
