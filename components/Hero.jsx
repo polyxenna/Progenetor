@@ -772,6 +772,7 @@ const Hero = () => {
                                                 className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:ring-primary text-black font-medium "
                                                 value={prompt}
                                                 onChange={handlePromptChange}
+                                                autoComplete="off"
                                             />
                                             <button
                                                 onClick={handleGenerateOutput}
