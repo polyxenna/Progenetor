@@ -20,7 +20,7 @@ const Hero = () => {
         setPrompt(e.target.value);
     };
 
-    const apiKey = "AIzaSyBbvf9Trd6cJSP6V1PzAHOSIZsPyjTJVOQ";
+    const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
     const genAI = new GoogleGenerativeAI(apiKey);
 
     const model = genAI.getGenerativeModel({
