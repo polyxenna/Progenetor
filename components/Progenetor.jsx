@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { Cursor, Typewriter } from "react-simple-typewriter";
 import "../styles/index.css";
 
-const Hero = () => {
+const Progenetor = () => {
     const [showInput, setShowInput] = useState(false);
     const [prompt, setPrompt] = useState("");
     const [output, setOutput] = useState("");
@@ -1090,4 +1090,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Progenetor;
