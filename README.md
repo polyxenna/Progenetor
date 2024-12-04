@@ -2,8 +2,12 @@
 
 Progenetor is an AI ChatBot Prompt Generator app designed to elevate your chatbot's performance. It’s the perfect tool for crafting engaging prompts that drive meaningful AI conversations. Simple, efficient, and versatile—transform your chatbot experience now.
 
-## Features
+<p align="center">
+    <img src="public/progenetor_showcase.gif" alt="Progenetor Showcase">
+</p>
 
+
+## Features
 - Generate detailed and in-depth prompts for your AI chatbot.
 - Powered by the Gemini 1.5 AI model.
 - Built with Next.js using `create-next-app`.
